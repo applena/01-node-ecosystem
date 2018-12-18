@@ -4,7 +4,7 @@
   "description": "this will be sooooo cool",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint **/*.js",
+    "lint": "./node_modules/eslint/bin/eslint.js **/*.js",
     "test": "jest --verbose --coverage"
   },
   "author": "",
