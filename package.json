@@ -11,7 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "faker": "4.1.0",
-    "jest": "23.6.0",
-    "lint": "1.1.2"
+    "jest": "23.6.0"
+  },
+  "devDependencies": {
+    "eslint": "5.10.0"
   }
 }
