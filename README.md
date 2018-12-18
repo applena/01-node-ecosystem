@@ -2,41 +2,42 @@
 =================================================
 
 ## Project Name
+01 - Lab - Node Ecosystem
 
-### Author: Student/Group Name
+### Author: Lena Eivy
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [repo](https://github.com/applena/01-node-ecosystem)
+* [travis](https://travis-ci.com/applena/01-node-ecosystem.svg?branch=master)
+* [heroku](https://eivy-lab-01.herokuapp.com/)
 
 ### Modules
-#### `modulename.js`
+#### `arithmetic.js`
 ##### Exported Values and Methods
+exports an object with an add, subtract, multiply and divide method
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### `add(array) -> number`
+adds all the numbers in an array and returns a single number. example: `add([2, 4, 1]) => 7`
 
-###### `bar(array) -> array`
-Usage Notes or examples
+###### `subtract(array) -> number`
+subtracts all the numbers in an array and returns a single number. example: `subtract([2, 4, 1]) => -3`
+
+###### `multiply(array) -> number`
+multiply all the numbers in an array and returns a single number. example: `multiply([2, 4, 1]) => 8`
+
+###### `divide(array) -> number`
+divides all the numbers in an array and returns a single number. example: `divide([2, 4, 1]) => 1/2`
+
+#### `greet.js`
+##### Exported Values and Methods
+exports a greet function
 
 ### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+`npm i`
 
 #### Tests
 * How do you run tests?
+`npm run test`
 * What assertions were made?
-* What assertions need to be / should be made?
+That the expected data types are put in with the correct number of parameters. That it performs the expected action.
 
-#### UML
-Link to an image of the UML for your application and response to events
